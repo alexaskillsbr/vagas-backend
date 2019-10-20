@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "vagas-backend",
+          "summary": "Resumo das últimas vagas de backend",
+          "description": "Resumo das últimas vagas de backedn postadas no https://github.com/backend-br/vagas",
+          "examplePhrases": [
+            "Vagas backend"
+          ],
+          "keywords": [
+            "vagas",
+            "backend",
+            "developer"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Just say: \"Alexa, vagas backend\"",
+      "category": "NEWS",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": "ask-custom-vagas-backend-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
