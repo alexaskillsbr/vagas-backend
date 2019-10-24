@@ -3,5 +3,6 @@
 </p>
 
 > Alexa, vagas backend
+> Alexa, abrir vagas backend
 
 Essa skill irá fazer um resumo das últimas vagas de backend postadas no https://github.com/backend-br/vagas. Você pode executar essa skill em qualquer dispositivo Amazon Echo.
